@@ -1,0 +1,12 @@
+package MapUse;
+
+public class MapNode <K,V>{
+	K key;
+	V value;
+	MapNode next;
+	MapNode(K key,V value ){
+		this.key = key;
+		this.value = value;
+		next = null;
+	}
+}
